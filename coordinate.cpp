@@ -2,7 +2,7 @@
 //
 // Created by: Amara Tie
 // Date: April 1, 2025
-// This is a program that finds out what quadrant each coordinate lies
+// This is a program that finds out what quadrant each coordinate lies.
 
 #include <iostream>
 #include <string>
