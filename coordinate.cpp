@@ -15,7 +15,7 @@ int main() {
     int yAsNumber;
 
     // Greeting
-    std::cout << "Hello! Lets find the quadrant of coordinates!";
+    std::cout << "Hello! Let's find the quadrant of coordinates!";
     std::cout << "\n";
 
     // Ask user for coordinate
