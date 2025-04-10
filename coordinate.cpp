@@ -35,3 +35,9 @@ int main() {
         std::cout << "The coordinates: " << xAsNumber << "\n " << yAsNumber << " are in quadrant 3.\n";
     } else if (xAsNumber > 0 && yAsNumber < 0) {
         std::cout << "The coordinates: " << xAsNumber << "\n" << yAsNumber << " are in quadrant 4.\n";
+    } else {
+        std::cout << "The point doesn't exist";
+    }
+    } catch (std::invalid_argument) {
+        std::cout << "That was not a number.";
+    }
