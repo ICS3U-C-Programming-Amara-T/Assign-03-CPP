@@ -13,7 +13,13 @@ int main() {
     std::string yAsString;
     int xAsNumber;
     int yAsNumber;
-    
+
     // Greeting
     std::cout << "Hello! Lets find the quadrant of coordinates!";
     std::cout << "\n";
+
+    // Ask user for coordinate
+    std::cout << "Enter the x coordinate: ";
+    std::cin >> xAsString;
+    std::cout << "Enter the y coordinate: ";
+    std::cin >> yAsString;
