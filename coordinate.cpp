@@ -23,7 +23,8 @@ int main() {
     std::cin >> xAsString;
     std::cout << "Enter the y coordinate: ";
     std::cin >> yAsString;
-
+    
+    // Check which quadrate the coordinate resides
     try {
         xAsNumber = std::stoi(xAsString);
         yAsNumber = std::stoi(yAsString);
