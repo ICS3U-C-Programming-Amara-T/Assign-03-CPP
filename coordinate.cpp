@@ -41,3 +41,6 @@ int main() {
     } catch (std::invalid_argument) {
         std::cout << "That was not a number.";
     }
+
+    std::cout << "Thanks for playing!" << std::endl;
+}
