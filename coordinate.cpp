@@ -31,3 +31,7 @@ int main() {
         std::cout << "The coordinates: " << xAsNumber << "\n " << yAsNumber << " are in quadrant 1.\n";
     } else if (xAsNumber < 0 && yAsNumber > 0) {
         std::cout << "The coordinates: " << xAsNumber << "\n" << yAsNumber << " are in quadrant 2.\n";
+    } else if (xAsNumber < 0 && yAsNumber < 0) {
+        std::cout << "The coordinates: " << xAsNumber << "\n " << yAsNumber << " are in quadrant 3.\n";
+    } else if (xAsNumber > 0 && yAsNumber < 0) {
+        std::cout << "The coordinates: " << xAsNumber << "\n" << yAsNumber << " are in quadrant 4.\n";
