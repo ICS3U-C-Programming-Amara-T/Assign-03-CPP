@@ -23,3 +23,7 @@ int main() {
     std::cin >> xAsString;
     std::cout << "Enter the y coordinate: ";
     std::cin >> yAsString;
+
+    try {
+        xAsNumber = std::stoi(xAsString);
+        yAsNumber = std::stoi(yAsString);
