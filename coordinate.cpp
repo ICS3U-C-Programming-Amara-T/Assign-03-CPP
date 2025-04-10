@@ -27,21 +27,21 @@ int main() {
     try {
         xAsNumber = std::stoi(xAsString);
         yAsNumber = std::stoi(yAsString);
-    if (xAsNumber > 0 && yAsNumber > 0) {
-        std::cout << "The coordinates: " << xAsNumber << " , ";
-        << yAsNumber << " are in quadrant 1.\n";
-    } else if (xAsNumber < 0 && yAsNumber > 0) {
-        std::cout << "The coordinates: " << xAsNumber << " ,";
-        << yAsNumber << " are in quadrant 2.\n";
-    } else if (xAsNumber < 0 && yAsNumber < 0) {
-        std::cout << "The coordinates: " << xAsNumber << " , ";
-        << yAsNumber << " are in quadrant 3.\n";
-    } else if (xAsNumber > 0 && yAsNumber < 0) {
-        std::cout << "The coordinates: " << xAsNumber << " , ";
-        << yAsNumber << " are in quadrant 4.\n";
-    } else {
-        std::cout << "The point doesn't exist";
-    }
+        if (xAsNumber > 0 && yAsNumber > 0) {
+            std::cout << "The coordinates: " << xAsNumber << " , ";
+            << yAsNumber << " are in quadrant 1.\n";
+        } else if (xAsNumber < 0 && yAsNumber > 0) {
+            std::cout << "The coordinates: " << xAsNumber << " ,";
+            << yAsNumber << " are in quadrant 2.\n";
+        } else if (xAsNumber < 0 && yAsNumber < 0) {
+            std::cout << "The coordinates: " << xAsNumber << " , ";
+            << yAsNumber << " are in quadrant 3.\n";
+        } else if (xAsNumber > 0 && yAsNumber < 0) {
+            std::cout << "The coordinates: " << xAsNumber << " , ";
+            << yAsNumber << " are in quadrant 4.\n";
+        } else {
+            std::cout << "The point doesn't exist";
+        }
     } catch (std::invalid_argument) {
         std::cout << "That was not a number.";
     }
