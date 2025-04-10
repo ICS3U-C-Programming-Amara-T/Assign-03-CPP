@@ -6,3 +6,10 @@
 
 #include <iostream>
 #include <string>
+
+int main() {
+    // Define variables
+    std::string xAsString;
+    std::string yAsString;
+    int xAsNumber;
+    int yAsNumber;
